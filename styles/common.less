@@ -1,0 +1,70 @@
+@import 'variables.less';
+
+.break-word {
+  word-break: break-all;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.button.is-sbercoin {
+  border-color: transparent;
+  background-color: @sbercoin;
+  color: white;
+
+  &:hover, .is-hovered {
+    background-color: darken(@sbercoin, 3%);
+    color: white;
+  }
+
+  &:focus, .is-focused {
+    outline: none;
+    color: white;
+    &:not(:active) {
+      box-shadow: 0 0 0 0.125rem fade(@sbercoin, 25%);
+    }
+  }
+
+  &:active, .is-actived {
+    outline: none;
+    background-color: darken(@sbercoin, 5%);
+    color: white;
+  }
+
+  &.is-outlined {
+    border-color: @sbercoin;
+    background-color: transparent;
+    color: @sbercoin;
+    &:hover, .is-hovered {
+      border-color: @sbercoin;
+      background-color: @sbercoin;
+      color: white;
+    }
+  }
+
+  &.is-inverted {
+    background-color: white;
+    color: @sbercoin;
+    &:hover, .is-hovered {
+      background-color: #f2f2f2;
+      color: white;
+    }
+  }
+
+  &.is-outlined.is-inverted {
+    border-color: white;
+    background-color: transparent;
+    color: white;
+    &:hover {
+      background-color: white;
+      color: @sbercoin;
+    }
+  }
+
+  &[disabled] {
+    border-color: transparent;
+    background-color: @sbercoin;
+    box-shadow: none;
+  }
+}

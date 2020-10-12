@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'sbercoin-icons';
+  src: url('fonts/sbercoin-icons.eot?vyas3r');
+  src: url('fonts/sbercoin-icons.eot?vyas3r#iefix') format('embedded-opentype'),
+    url('fonts/sbercoin-icons.ttf?vyas3r') format('truetype'),
+    url('fonts/sbercoin-icons.woff?vyas3r') format('woff'),
+    url('fonts/sbercoin-icons.svg?vyas3r#sbercoin-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.sbercoin-icon {
+  font-family: 'sbercoin-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sbercoin-icon--sbercoin:before {
+  content: "\e900";
+  font-size: larger;
+}
+.sbercoin-icon--discord:before {
+  content: "\e90d";
+}

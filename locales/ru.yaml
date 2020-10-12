@@ -1,0 +1,177 @@
+blockchain:
+  blockchain: Блокчейн
+  address: Адрес | Адреса
+  block: Блок | Блоки
+  transaction: Транзакция | Транзакции
+  contract: Контракт | Контракты
+  token: Токены | Токены
+  misc: Инфопанель
+  blockchain_height: Номер блока
+  current_difficulty: Текущая сложность сети
+  network_weight: Размер сети
+  fee_rate: Комиссия
+  blockInNav: Блоки
+block:
+  brief:
+    tx : транзакций | транзакция | транзакции | транзакций 
+    address: Добыто {0}
+    transaction: транзакций | транзакция | транзакции | транзакций
+    in: за
+    seconds: секунд | секунду | секунды | секунд
+    reward: Награда за блок
+  list:
+    block_list: Блоки
+    height: Номер
+    time: Время
+    reward: Вознаграждение
+    mined_by: Добыт
+    size: Размер
+    transactions: Транзакции
+  summary: Общая информация о блоке
+  block_height: Высота
+  block_hash: Хеш
+  block_size: Размер блока
+  block_weight: Вес блока
+  bytes: байт
+  timestamp: Время
+  block_reward: Вознаграждение
+  difficulty: Сложность
+  merkle_root: Корень
+  mined_by: Добыто
+  transactions: Транзакции
+  previous_block: Предыдущий блок
+  next_block: Следующий блок
+transaction:
+  summary: Общая информация о транзакции
+  confirmations: подтверждений | подтверждение | подтверждения | подтверждений
+  unconfirmed: неподтвержденная
+  transaction_id: ID транзакции
+  transaction_hash: Хеш транзакции
+  included_in_block: Включено в блок
+  transaction_size: Размер транзакции
+  bytes: байты
+  timestamp: Время
+  confirmation: Подтверждение
+  transaction_fee: Комиссия за транзакцию
+  coinbase_input: Внутренняя транзакция 
+  empty_output: ⠀
+  op_return_output: UTXO
+  unparsed_address: Неизвестный адрес
+  fee: Комиссия
+  reward: Вознаграждение
+  gas_refund: Газ
+  script:
+    type: Тип
+    script: Скрипт
+    witness: Свидетель
+    code: Код
+    contract_create: Создание контракта
+    contract_call: Вызов контракта
+  receipt:
+    sender: Отправитель
+    contract_address: Адрес контракта
+    gas_used: Газа использовано
+    excepted: Excepted
+    event_logs: Журнал событий
+    address: Адрес
+    topics: Topics
+    data: Информация 
+  mempool: Пул памяти
+address:
+  invalid_address: Неверный адрес
+  summary: Адрес
+  address: Адрес
+  balance: Баланс
+  unconfirmed: неподтвержденный
+  staking: стейкинг
+  total_received: Всего получено
+  total_sent: Всего отправлено
+  token_balances: Баланс в токенах
+  blocks_mined: Блоков добыто
+  transaction_count: Количество транзакций
+  transaction_list: Список транзакций
+  balance_changes: Изменения баланса
+  token_balance_changes: Изменения баланса токенов
+  timestamp: Время
+  transaction_id: ID транзакции
+  changes: Изменения
+my_addresses:
+  star: Добавить в избранные
+  unstar: Удалить из избранных
+  summary: Краткая сводка
+contract:
+  summary: Контракт
+  address: Хеш адреса
+  owner: Создатель
+  create_transaction: Создан
+  token:
+    name: Название токена
+    total_supply: Текущее кол-во токенов в обороте
+    tokens: Токены
+    mint_tokens: Создание токенов
+    burn_tokens: Сжигание токенов
+    token_transactions: Транзакции
+    token_holders: Владельцы токенов
+  balance: Баланс
+  total_received: Всего получено
+  total_sent: Всего отправлено
+  transaction_count: Количество транзакций
+  transaction_list: Список транзакций
+misc:
+  misc: 
+  charts_title: Графики
+  rich_list_title: Список адресов
+  biggest_miners_title: Biggest Miners
+  ranking: Рейтинг
+  address: Адреса
+  balance: Баланс
+  blocks_mined: Блоков добыто
+  percentage: Процент
+  network_statistics: Статистика сети
+  stats:
+    daily_transactions: Транзакций в день
+    total_transactions: Всего транзакций
+    contract_transactions: Транзакций c контрактами
+    block_interval: Интервал между блоками
+    coinstake_distribution: Распределение монет
+    address_growth: Рост количества адресов
+    blocks: Блоков
+    interval: 'Интервал (секунды)'
+    expected_value: Ожидаемое значение
+    coins: Коины
+    blocks_mined: Блоков добыто
+  stake_calculator:
+    title: Stake Calculator
+    network_weight: Network Weight
+    enter_address: Enter Your Address (optional)
+    weight: Your Weight (coins to stake)
+    expected_time: Expected Time
+    seconds: секунд
+    minutes: минут
+    hours: часов
+    days: дней
+    months: месяцев
+    years: лет
+    average_blocks_per_day: Среднее количество блоков в день
+    average_blocks_per_year: Среднее количество блоков в год
+    yearly_roi: Годовой ROI
+  raw_tx: 
+    title: Отправить транзакцию
+    placeholder: Данные транзакции (в hex-формате)
+    submit: Отправить
+nav:
+  search: Поиск блока / ID Транзакции / Адреса / Контракта / Токена
+pagination:
+  go_to: Перейти
+footer:
+  contact_us: Свяжитесь с нами
+  facebook: Facebook
+  twitter: Twitter
+  forum: Форум
+  rights_reserved: Все права защищены
+action:
+  copy: Скопировать
+  view_all: Посмотреть все
+  go: Перейти
+notification:
+  new_transaction_received: Вы получили новую транзакцию
