@@ -3,26 +3,31 @@
     <div class="container">
       <h3 class="is-size-4 is-uppercase">{{ $t('footer.contact_us') }}</h3>
       <div class="line"></div>
-      <a href="mailto:foundation@sbercoin.org">foundation@sbercoin.org</a>
+      <a href="mailto:hello@sbercoin.com">hello@sbercoin.com</a>
       <ul class="links">
         <li>
-          <a target="_blank" href="https://www.facebook.com/aaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAA/">
-            <Icon icon="facebook" brands /> {{ $t('footer.facebook') }}
+          <a target="_blank" href="https://medium.com/@sbercoin">
+            <Icon icon="medium" brands /> {{ $t('footer.medium') }}
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://twitter.com/sbercoinofficial">
+          <a target="_blank" href="https://twitter.com/Sbercoin_com">
             <Icon icon="twitter" brands /> {{ $t('footer.twitter') }}
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://forum.sbercoin.org">
-            <span class="sbercoin-icon sbercoin-icon--sbercoin"></span> {{ $t('footer.forum') }}
+          <a target="_blank" href="https://sbercoin.com">
+            <span class="fab sbercoin-icon sbercoin-icon--sbercoin"></span> Sbercoin.com
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/sbercoinproject/sbercoin">
-            <Icon icon="github" brands /> Github
+          <a target="_blank" href="https://wallet.sbercoin.com/">
+            <span class="fab sbercoin-icon sbercoin-icon--sbercoin"></span> {{ $t('misc.web_wallet') }}
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://ide.sbercoin.com/">
+            <span class="fab sbercoin-icon sbercoin-icon--sbercoin"></span> IDE
           </a>
         </li>
       </ul>
@@ -74,7 +79,7 @@
       margin-bottom: 2.5rem;
     }
   }
-  span.fab, span.fas, span.sbercoin-icon {
+  span.fab, span.fas span.sbercoin-icon{
     font-size: 2em;
     vertical-align: middle;
   }

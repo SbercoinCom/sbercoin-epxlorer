@@ -7,6 +7,7 @@
     url('fonts/sbercoin-icons.svg?vyas3r#sbercoin-icons') format('svg');
   font-weight: normal;
   font-style: normal;
+  font-display: block;
 }
 
 .sbercoin-icon {
@@ -23,7 +24,6 @@
 
 .sbercoin-icon--sbercoin:before {
   content: "\e900";
-  font-size: larger;
 }
 .sbercoin-icon--discord:before {
   content: "\e90d";

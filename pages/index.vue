@@ -109,7 +109,7 @@
   export default {
     head() {
       return {
-        title: 'sbercoin.info',
+        title: 'Обозреватель блоков блокчейна Sbercoin.com',
         titleTemplate: null
       }
     },

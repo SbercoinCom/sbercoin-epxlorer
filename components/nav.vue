@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="navbar-brand is-size-4">
       <nuxt-link to="/" class="navbar-item navbar-logo" id="logoGreen">
-        <span class="sbercoin-icon sbercoin-icon--sbercoin" /> Sbercoin.com
+        <span class="sbercoin-icon" /> Sbercoin.com
       </nuxt-link>
       <button type="button" class="button navbar-burger" @click="showMenu = !showMenu">
         <span></span><span></span><span></span>
@@ -16,14 +16,13 @@
           <!-- <nuxt-link to="/misc/charts" class="navbar-link">{{ $t('misc.misc') }}</nuxt-link> -->
           <nuxt-link to="/misc/charts" class="navbar-item">{{ $t('misc.charts_title') }}</nuxt-link>
           <nuxt-link to="/misc/rich-list" class="navbar-item">{{ $t('misc.rich_list_title') }}</nuxt-link>
-              <!-- <nuxt-link to="/misc/biggest-miners" class="navbar-item">
-                {{ $t('misc.biggest_miners_title') }}
-              </nuxt-link>
-              <nuxt-link to="/misc/stake-calculator" class="navbar-item">
-                {{ $t('misc.stake_calculator.title') }}
-              </nuxt-link>
-              <nuxt-link to="/misc/raw-tx" class="navbar-item">
-                Send Raw Transaction -->
+          <div class="has-dropdown is-hoverable">
+            <nuxt-item to="/misc/charts" class="navbar-link">{{ $t('misc.misc') }}</nuxt-item>
+            <div class="navbar-dropdown is-boxed">
+              <a href="https://wallet.sbercoin.com/" class="navbar-item">{{ $t('misc.web_wallet') }}
+              </a>
+              <a href="https://ide.sbercoin.com/" class="navbar-item">Sbercoin IDE
+              </a>
             </div>
           </div>
         </AttributeInjector>

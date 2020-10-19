@@ -118,8 +118,9 @@ contract:
   transaction_count: Количество транзакций
   transaction_list: Список транзакций
 misc:
-  misc: 
+  misc: Разное
   charts_title: Графики
+  web_wallet: Web Кошелёк
   rich_list_title: Список адресов
   biggest_miners_title: Biggest Miners
   ranking: Рейтинг
@@ -165,7 +166,7 @@ pagination:
   go_to: Перейти
 footer:
   contact_us: Свяжитесь с нами
-  facebook: Facebook
+  medium: Medium
   twitter: Twitter
   forum: Форум
   rights_reserved: Все права защищены

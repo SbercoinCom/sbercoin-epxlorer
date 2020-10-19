@@ -117,6 +117,7 @@ contract:
 misc:
   misc: Misc
   charts_title: Charts
+  web_wallet: Web Wallet
   rich_list_title: Rich List
   biggest_miners_title: Biggest Miners
   ranking: Ranking
@@ -158,7 +159,7 @@ pagination:
   go_to: Go to
 footer:
   contact_us: Contact Us
-  facebook: Facebook
+  medium: Medium
   twitter: Twitter
   forum: Forum
 action:

@@ -2,7 +2,7 @@ import webpack from 'webpack'
 
 export default {
   head: {
-    titleTemplate: '%s - sbercoin.info',
+    titleTemplate: '%s - Обозреватель блоков блокчейна Sbercoin.com',
     meta: [
       {charset: 'utf-8'},
       {name: 'viewport', content: 'width=device-width, initial-scale=1, user-scalable=no'}
