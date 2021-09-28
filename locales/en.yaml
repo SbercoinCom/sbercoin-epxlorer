@@ -92,6 +92,9 @@ address:
   timestamp: Timestamp
   transaction_id: Transaction ID
   changes: Changes
+  superstaker: Superstaker
+  delegators: Delegators
+  fee: fee
 my_addresses:
   star: Star
   unstar: Unstar

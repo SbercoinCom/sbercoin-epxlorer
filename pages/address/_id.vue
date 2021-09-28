@@ -77,6 +77,26 @@
           <div class="column info-title">{{ $t('address.transaction_count') }}</div>
           <div class="column info-value">{{ transactionCount }}</div>
         </div>
+        <div class="columns" v-if="superStaker != ''">
+          <div class="column info-title">{{ $t('address.superstaker') }}</div>
+          <div class="column info-value">
+            <AddressLink :address="superStaker" :clipboard="false">
+              {{ superStaker }}
+            </AddressLink>
+            - {{ fee }} %
+          </div>
+        </div>
+        <div class="columns" v-if="delegators.length">
+          <div class="column info-title">{{ $t('address.delegators') }}</div>
+          <div class="column info-value">
+            <div v-for="delegator in delegators" class="monospace">
+              <AddressLink :address="delegator.delegator" :clipboard="false">
+                {{ delegator.delegator }}
+              </AddressLink>
+              - {{ delegator.fee }}%
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -130,7 +150,10 @@
         qrc20Balances: [],
         ranking: 0,
         blocksMined: 0,
-        transactionCount: 0
+        transactionCount: 0,
+        superStaker: '',
+        fee: 0,
+        delegators: []
       }
     },
     async asyncData({req, params, query, redirect, error}) {
