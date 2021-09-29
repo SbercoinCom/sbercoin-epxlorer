@@ -32,7 +32,7 @@
         </li>
       </ul>
       <div class="copyright">
-        2020 Sbercoin.com CHAIN FOUNDATION &copy; {{$t('footer.rights_reserved')}}
+        {{ new Date().getFullYear() }} SBERCOIN.COM FOUNDATION &copy; {{$t('footer.rights_reserved')}}
       </div>
     </div>
   </footer>
