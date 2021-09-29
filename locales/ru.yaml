@@ -95,6 +95,9 @@ address:
   timestamp: Время
   transaction_id: ID транзакции
   changes: Изменения
+  superstaker: Суперстейкер
+  delegators: Делегаторы
+  fee: Комиссия
 my_addresses:
   star: Добавить в избранные
   unstar: Удалить из избранных
